@@ -1,0 +1,102 @@
+@use "mixins" as *;
+* {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.calc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calc__outline {
+    @include border;
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(31, 31, 31);
+}
+.calc__display--main {
+    background-color: rgb(31, 31, 31);
+    border-radius: 10px;
+}
+.calc__display {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    margin-bottom: 15px;
+    @include border;
+    height: 10vh;
+    background-color: rgb(172, 172, 172);
+}
+
+.calc__panel--main {
+    background-color: rgb(40, 39, 39);
+}
+.calc__panel {
+    display: flex;
+    margin: 30px;
+    height: 8vh;
+}
+
+.calc__panel--img img {
+    @include border;
+}
+
+.calc__numbers--main {
+    background-color: rgb(40, 39, 39);
+    padding-bottom: 40px;
+}
+
+.calc__numbers {
+    display: flex;
+    justify-content: center;
+}
+
+.calc__numbers--grid {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 9.5vh 9.5vh 9.5vh 9.5vh 9.5vh;
+    grid-template-rows: 5vh 6.5vh 6.5vh 6.5vh 6.5vh;
+    grid-gap: 8px;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine,
+.zero,
+.zero-zero,
+.period {
+    @include button-primary(rgb(29, 29, 29));
+    border-radius: 10px;
+}
+
+.maddition,
+.maminus,
+.mrc,
+.gt,
+.divide,
+.clear,
+.multiply,
+.percent,
+.minus,
+.mu,
+.equals {
+    @include button-primary(grey);
+}
+
+.plus,
+.on-ac {
+    @include button-primary(rgb(28, 187, 131));
+}
