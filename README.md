@@ -27,7 +27,7 @@
 
 -   My initial render of the calculator accidentally included the use of Eval(). Upon reviewing the MVP and realising this did not satisfy project conditions, this had to be removed.
 
--   Finding away to get our calculator to store at least 2 numbers was an issue for a couple of days. Once this was solved, other aspects such as storing the appropriate operator as well as getting the equal button to work was fairly straightforward.
+-   Finding a way to get our calculator to store at least 2 numbers was an issue for a couple of days. Once this was solved, other aspects such as storing the appropriate operator as well as getting the equal button to work was fairly straightforward.
 
 ### Coding decisions
 
