@@ -6,7 +6,7 @@
 
 ### Our Calculator:
 
-![](images/myCalc-resize.png)
+![](images/myCalc.png)
 
 ## MVP (Summarised):
 
