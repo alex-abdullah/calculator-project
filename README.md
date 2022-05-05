@@ -2,11 +2,11 @@
 
 ### Photo of Calculator:
 
-![](images/calc-img.png)
+![](calcImages/calc-img.png)
 
 ### Our Calculator:
 
-![](images/myCalc.png)
+![](calcImages/myCalc.png)
 
 ## MVP (Summarised):
 
