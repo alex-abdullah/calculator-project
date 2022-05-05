@@ -16,7 +16,7 @@
 .calc__outline {
     @include border;
     width: 500px;
-    height: 600px;
+    height: 580px;
     display: flex;
     flex-direction: column;
     background-color: rgb(31, 31, 31);
@@ -28,11 +28,11 @@
 .calc__display {
     display: flex;
     justify-content: right;
-    margin: 40px;
+    margin: 30px;
     margin-bottom: 15px;
     @include border;
     height: 10vh;
-    background-color: rgb(172, 172, 172);
+    background-color: rgb(190, 190, 190);
     box-shadow: 8px 0 16px 0 (rgb(0, 0, 0, 0.4));
 }
 
@@ -49,6 +49,7 @@
 .calc__panel {
     display: flex;
     margin: 30px;
+    margin-bottom: 20px;
     height: 8vh;
 }
 
@@ -70,8 +71,8 @@
 .calc__numbers--grid {
     display: grid;
     text-align: center;
-    grid-template-columns: 9.5vh 9.5vh 9.5vh 9.5vh 9.5vh;
-    grid-template-rows: 5vh 6.5vh 6.5vh 6.5vh 6.5vh;
+    grid-template-columns: 10vh 10vh 10vh 10vh 10vh;
+    grid-template-rows: 8vh 8vh 8vh 8vh;
     grid-gap: 8px;
 }
 .button:hover {

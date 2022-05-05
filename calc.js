@@ -96,10 +96,6 @@ equal.addEventListener("click", (e) => {
             result = finalNumberOne / finalNumberTwo;
             display.innerText = result;
             break;
-        case "**":
-            result = finalNumberOne ** finalNumberTwo;
-            display.innerText = result;
-            break;
         case "÷":
             result = finalNumberOne / finalNumberTwo;
             display.innerText = result;
