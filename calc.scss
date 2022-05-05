@@ -3,7 +3,7 @@
     color: white;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 28px;
 }
 
 .calc {
@@ -35,12 +35,16 @@
     background-color: rgb(190, 190, 190);
     box-shadow: 8px 0 16px 0 (rgb(0, 0, 0, 0.4));
 }
+.calc__display:hover {
+    background-color: white;
+    transition: 0.3s ease-in-out;
+}
 
 #display {
     height: 70px;
     line-height: 70px;
     padding: 16px 8px;
-    font-size: 40px;
+    font-size: 56px;
 }
 
 .calc__panel--main {
@@ -77,6 +81,10 @@
 }
 .button:hover {
     cursor: pointer;
+    background-color: whitesmoke;
+    color: black;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.02);
 }
 
 .button--number {

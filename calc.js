@@ -34,11 +34,7 @@ specialButtons.map((special) => {
     special.addEventListener("click", (e) => {
         switch (e.target.innerText) {
             // Clear
-            case "C":
-                display.innerText = "";
-                break;
-            // Clear
-            case "ON/AC":
+            case "AC":
                 display.innerText = "";
                 numberCurrent = "";
                 currNumberOne = "";
